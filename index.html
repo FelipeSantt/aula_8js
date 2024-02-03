@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8 - Requisições</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <label for="cep">CEP</label>
+        <input type="text" id="cep">
+        <label for="logradouro">Rua</label>
+        <input type="text" id="logradouro">
+        <label for="logradouro">Bairro</label>
+        <input type="text" id="bairro">
+        <label for="logradouro">Cidade</label>
+        <input type="text" id="localidade">
+        <label for="logradouro">Estado</label>
+        <input type="text" id="uf">
+
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="jquery.mask.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $('#cep').mask('00000-000')
+    </script>
+
+</body>
+</html>
